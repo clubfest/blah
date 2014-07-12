@@ -1,4 +1,7 @@
 <template name='navbar'>
+  <div class='align-right'>
+  </div>
+  <br/>
   <div class="navbar">
     <div class='navbar-inner'>
       <ul class='nav'>
@@ -14,6 +17,18 @@
             About
           </a>
         </li>
+        <li>
+          <a href="/blog">
+            <i class='fa fa-book'></i>
+            Blog
+          </a>
+        </li>
+        <li>
+          <a>
+            {{> loginButtons}}                        
+          </a>
+        </li>
+
       </ul>
     </div>
   </div>

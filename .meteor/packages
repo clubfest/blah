@@ -4,8 +4,11 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-autopublish
 insecure
 iron-router
 bootstrap
 fontawesome4
+blog
+accounts-ui
+accounts-base
+accounts-password
