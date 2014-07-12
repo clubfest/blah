@@ -1,12 +1,13 @@
 
 Router.configure({
-  // layoutTemplate: 'layout',
+  layoutTemplate: 'layout',
   notFoundTemplate: 'notFound',
-  // loadingTemplate: 'loading',
+  loadingTemplate: 'loading',
 });
 
 Router.map(function() {
-  this.route('home', {
-    path: '/',
-  });
+  this.route('home', {path: '/'});
+  this.route('about');
+
+
 });

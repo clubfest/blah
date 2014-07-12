@@ -1,0 +1,32 @@
+body {
+  background-color: rgba(150, 200, 200, 0.5);
+}
+#body-wrapper {
+  background-color: white;
+  max-width: 650px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: 600px;
+}
+
+@media all and (max-width: 500px){
+  body {
+    background-color: white;
+  }
+  #body-wrapper {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+.inline-blocks div{
+  display: inline-block; 
+  padding: 15px;
+  vertical-align: top;
+}
