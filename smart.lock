@@ -4,7 +4,8 @@
     "basePackages": {
       "iron-router": {},
       "fontawesome4": {},
-      "blog": {}
+      "blog": {},
+      "velocity-quick-start": {}
     },
     "packages": {
       "iron-router": {
@@ -19,8 +20,13 @@
       },
       "blog": {
         "git": "https://github.com/Differential/meteor-blog.git",
-        "tag": "v0.4.4",
-        "commit": "bd178febfd26fa9564bbd9c1c85b50cac7fc6109"
+        "tag": "v0.5.0",
+        "commit": "e3da67171417957542b1a59056159dd0d94c1066"
+      },
+      "velocity-quick-start": {
+        "git": "https://github.com/alanning/meteor-velocity-quick-start.git",
+        "tag": "v0.0.8",
+        "commit": "76975566981224c3440c4909e7b6a33bdfc294b2"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
@@ -42,15 +48,35 @@
         "tag": "v1.2.10",
         "commit": "7ccb35de0a6cb0c9a0c3666badd04757e39c09a6"
       },
-      "marked": {
-        "git": "https://github.com/chuangbo/meteor-marked.git",
-        "tag": "v0.3.2",
-        "commit": "850f63135cdeb05344c420bd586fd8af9cab75df"
+      "fileCollection": {
+        "git": "https://github.com/vsivsi/meteor-file-collection.git",
+        "tag": "v0.2.3",
+        "commit": "71ee5e2cce54794cacc0543fd26c769a2eb2ef37"
       },
       "reactive-table": {
         "git": "https://github.com/ecohealthalliance/reactive-table.git",
-        "tag": "v0.3.14",
-        "commit": "f5d7105393d5aa038b3f680e5af1adff2a04d4b0"
+        "tag": "v0.3.15",
+        "commit": "be996c811ef4232818bc51439f7cfc8deac9e012"
+      },
+      "velocity-html-reporter": {
+        "git": "https://github.com/rdickert/velocity-html-reporter.git",
+        "tag": "v0.1.4",
+        "commit": "55f973519fb6db831678219057854b94a4cec846"
+      },
+      "jasmine-unit": {
+        "git": "https://github.com/xolvio/jasmine-unit.git",
+        "tag": "v0.1.24",
+        "commit": "885dde77a96390d0fd31b03756f837f482db2ef1"
+      },
+      "jasmine": {
+        "git": "https://github.com/Sanjo/meteor-jasmine.git",
+        "tag": "v0.1.15",
+        "commit": "45024d476f08366250b227ef2cb62aea1ce7b89f"
+      },
+      "mocha-web-velocity": {
+        "git": "https://github.com/mad-eye/meteor-mocha-web.git",
+        "tag": "v0.3.4",
+        "commit": "5b68e18104c00687748b190b04a7752478472d17"
       },
       "underscore-string-latest": {
         "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
@@ -61,6 +87,21 @@
         "git": "https://github.com/subhog/meteor-just-i18n.git",
         "tag": "v0.3.0",
         "commit": "a60e7f4350fb9648d6f6b4a01acbbc114c4f4343"
+      },
+      "velocity": {
+        "git": "https://github.com/xolvio/velocity.git",
+        "tag": "v0.1.14",
+        "commit": "a79260e019e385dce09a67f1017f90d3143a12d9"
+      },
+      "package-stubber": {
+        "git": "https://github.com/alanning/meteor-package-stubber.git",
+        "tag": "v0.0.15",
+        "commit": "62ad08f8486aacbbc5ec22ea6e2a31573748b7d7"
+      },
+      "mirror": {
+        "git": "https://github.com/xdissent/meteor-mirror.git",
+        "tag": "v0.0.2",
+        "commit": "03d965dcab2f976a1fdc6ce513edcd4c17b75746"
       }
     }
   }

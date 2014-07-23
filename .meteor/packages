@@ -12,3 +12,9 @@ blog
 accounts-ui
 accounts-base
 accounts-password
+velocity-quick-start
+
+jasmine-unit
+mocha-web-velocity
+jasmine
+velocity-html-reporter
